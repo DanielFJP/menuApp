@@ -1,6 +1,7 @@
 import React, { useContext } from "react";
 import "./BsinAlcohol.css";
 import MobileContent from "../../components/MobileContent";
+import Navbar from "../../components/Bnavegacion";
 import Card from "react-bootstrap/Card";
 import Col from "react-bootstrap/Col";
 import Row from "react-bootstrap/Row";
@@ -66,6 +67,7 @@ const { addToCart } = useContext(CartContext);
     return (
         <div>
             <MobileContent />
+            <Navbar />
 
             <div className="contenido">
                 <Row xs={2} md={2} className="g-4 m-1">

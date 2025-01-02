@@ -1,90 +1,20 @@
 import React from 'react'
 import './inicio.css';
-import logo from '../../img/logoonce.png';
-import Carousel from 'react-bootstrap/Carousel';
-import cervezas from '../../img/cervezas/jarra-de-cerveza.png';
-import Bcalientes from '../../img/bebidas-calientes/bebidas-calientes.png';
-import BsinAlcohol from '../../img/bebidas-sin-alcohol/sin-alcohol.png';
-import snacks from '../../img/snacks/snacks.png';
-import shots from '../../img/shots/shots.png';
 import { Link } from 'react-router-dom';
 import MobileContent from '../../components/MobileContent';
+import Navbar from '../../components/Bnavegacion';
 
 
 function Inicio() {
     return (
         <div>
             <MobileContent />
+            <Navbar />
+
             <div className="container">
                 <h1>
                     Bienvenido-a <br /> te estábamos esperando &#x1F37B;
                 </h1>
-                {/*<div className="productos">
-                    <h1>Nuestros Productos</h1>
-
-                    <Carousel>
-                        <Carousel.Item>
-                            <Link to="/cervezas">
-                                <img
-                                    className="d-block"
-                                    src={cervezas}
-                                    alt="nacionales"
-                                />
-                                <Carousel.Caption>
-                                    <h3>Cervezas</h3>
-                                </Carousel.Caption>
-                            </Link>
-                        </Carousel.Item>
-                        <Carousel.Item>
-                            <Link to="/bebidas_calientes">
-                                <img
-                                    className="d-block"
-                                    src={Bcalientes}
-                                    alt="artesanales"
-                                />
-                                <Carousel.Caption>
-                                    <h3>Bebidas Calientes</h3>
-                                </Carousel.Caption>
-                            </Link>
-                        </Carousel.Item>
-                        <Carousel.Item>
-                            <Link to="/bebidas_sin_alcohol">
-                                <img
-                                    className="d-block"
-                                    src={BsinAlcohol}
-                                    alt="importadas"
-                                />
-                                <Carousel.Caption>
-                                    <h3>Bebidas Sin Alcohol</h3>
-                                </Carousel.Caption>
-                            </Link>
-                        </Carousel.Item>
-                        <Carousel.Item>
-                            <Link to="/snacks">
-                                <img
-                                    className="d-block"
-                                    src={snacks}
-                                    alt="importadas"
-                                />
-                                <Carousel.Caption>
-                                    <h3>Snacks</h3>
-                                </Carousel.Caption>
-                            </Link>
-                        </Carousel.Item>
-                        <Carousel.Item>
-                            <Link to="/shots">
-                                <img
-                                    className="d-block"
-                                    src={shots}
-                                    alt="importadas"
-                                />
-                                <Carousel.Caption>
-                                    <h3>Shots</h3>
-                                </Carousel.Caption>
-                            </Link>
-                        </Carousel.Item>
-                    </Carousel>
-                </div>*/}
 
                 <Link to="/cervezas" className="boton_producto">
                     <div class="svg-wrapper-1">

@@ -57,10 +57,21 @@ function Bnavegacion() {
 
 
 
+    //*const [isOpen, setIsOpen] = useState(false);
+
+    //*const toggleMenu = () => {
+       //* setIsOpen(!isOpen);
+    //*};
+
+
     const [isOpen, setIsOpen] = useState(false);
 
     const toggleMenu = () => {
         setIsOpen(!isOpen);
+    };
+
+    const handleNavLinkClick = () => {
+        setIsOpen(false);
     };
 
     return (
@@ -81,7 +92,7 @@ function Bnavegacion() {
                     />
                 </Navbar.Brand>
 
-                <div className="pedido"  onClick={toggleCart}>
+                <div className="pedido" onClick={toggleCart}>
                     <svg
                         xmlns="http://www.w3.org/2000/svg"
                         id="Layer_1"
@@ -101,36 +112,58 @@ function Bnavegacion() {
                     )}
                 </div>
 
-                
-                <input type="checkbox" id="checkbox" checked={ isOpen} onChange={toggleMenu} />
-    <label htmlFor="checkbox" className="toggle">
-        <div class="bars" id="bar1"></div>
-        <div class="bars" id="bar2"></div>
-        <div class="bars" id="bar3"></div>
-    </label>
+                <input
+                    type="checkbox"
+                    id="checkbox"
+                    checked={isOpen}
+                    onChange={toggleMenu}
+                />
+                <label htmlFor="checkbox" className="toggle">
+                    <div class="bars" id="bar1"></div>
+                    <div class="bars" id="bar2"></div>
+                    <div class="bars" id="bar3"></div>
+                </label>
 
                 <Navbar.Collapse id="basic-navbar-nav" in={isOpen}>
                     <Nav className="me-auto">
-                        <Nav.Link as={Link} to="/cervezas">
+                        <Nav.Link
+                            as={Link}
+                            to="/cervezas"
+                            onClick={handleNavLinkClick}
+                        >
                             Cervezas
                         </Nav.Link>
-                        <Nav.Link as={Link} to="/bebidas_calientes">
+                        <Nav.Link
+                            as={Link}
+                            to="/bebidas_calientes"
+                            onClick={handleNavLinkClick}
+                        >
                             Bebidas Calientes
                         </Nav.Link>
-                        <Nav.Link as={Link} to="/bebidas_sin_alcohol">
+                        <Nav.Link
+                            as={Link}
+                            to="/bebidas_sin_alcohol"
+                            onClick={handleNavLinkClick}
+                        >
                             Bebidas Sin Alcohol
                         </Nav.Link>
-                        <Nav.Link as={Link} to="/snacks">
+                        <Nav.Link
+                            as={Link}
+                            to="/snacks"
+                            onClick={handleNavLinkClick}
+                        >
                             Snacks
                         </Nav.Link>
-                        <Nav.Link as={Link} to="/shots">
+                        <Nav.Link
+                            as={Link}
+                            to="/shots"
+                            onClick={handleNavLinkClick}
+                        >
                             Shots
                         </Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
             </Navbar>
-
-
 
             <Modal
                 show={showCart}

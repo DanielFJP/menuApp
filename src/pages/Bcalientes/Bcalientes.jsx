@@ -1,6 +1,7 @@
 import React, { useContext } from "react";
 import "./Bcalientes.css";
 import MobileContent from "../../components/MobileContent";
+import Navbar from "../../components/Bnavegacion";
 import Tab from "react-bootstrap/Tab";
 import Tabs from "react-bootstrap/Tabs";
 import Card from "react-bootstrap/Card";
@@ -82,6 +83,7 @@ export default function () {
     return (
         <div>
             <MobileContent />
+            <Navbar />
 
             <div className="contenido">
                 <Tabs

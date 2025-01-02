@@ -1,6 +1,7 @@
 import React, { useContext } from 'react';
 import "./cervezas.css"
 import MobileContent from '../../components/MobileContent';
+import Navbar from "../../components/Bnavegacion";
 import Tab from "react-bootstrap/Tab";
 import Tabs from "react-bootstrap/Tabs";
 import Card from "react-bootstrap/Card";
@@ -206,6 +207,7 @@ export default function () {
   return (
       <div>
           <MobileContent />
+          <Navbar />
 
           <div className="contenido">
               <Tabs
@@ -232,7 +234,9 @@ export default function () {
                                           </div>
                                           <button
                                               className="ordenar-btn"
-                                              onClick={() =>addToCart(producto)}
+                                              onClick={() =>
+                                                  addToCart(producto)
+                                              }
                                           >
                                               Ordenar
                                           </button>
@@ -289,7 +293,12 @@ export default function () {
                                               <span>{producto.titulo}</span>
                                               <p>{producto.precio}</p>
                                           </div>
-                                          <button className="ordenar-btn" onClick={() => addToCart(producto)}>
+                                          <button
+                                              className="ordenar-btn"
+                                              onClick={() =>
+                                                  addToCart(producto)
+                                              }
+                                          >
                                               Ordenar
                                           </button>
                                       </div>
