@@ -1,5 +1,5 @@
 import React from 'react';
-import "./administracion.css";
+import './Administracion.css';
 import Logo from '../../img/logoonce.png'
 
 
