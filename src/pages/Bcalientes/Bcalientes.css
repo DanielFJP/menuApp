@@ -1,5 +1,6 @@
-.contenido{
+.contenido-Bcalientes{
   display: block;
+  margin-top: 45px;
 }
 
 @media screen and (min-width:600px) {

@@ -1,6 +1,6 @@
-.contenido{
+.contenido-cervezas{
   display: block;
-  margin-top: 0px;
+  margin-top: 45px;
 }
 
 @media screen and (min-width:600px) {
@@ -183,3 +183,13 @@
 }
 
 
+.tabs{
+  position: fixed;
+  width: 100%;
+  z-index: 2;
+ top: 63px;
+}
+
+.nav-link{
+  border-radius: 5px 5px 0px 0px !important;
+}

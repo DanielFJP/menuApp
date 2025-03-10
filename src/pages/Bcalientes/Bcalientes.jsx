@@ -85,12 +85,12 @@ export default function () {
             <MobileContent />
             <Navbar />
 
-            <div className="contenido">
+            <div className="contenido-Bcalientes">
                 <Tabs
                     defaultActiveKey="cafes"
                     transition={true}
                     id="noanim-tab-example"
-                    className="mb-1 d-flex justify-content-center bg-dark "
+                    className="mb-1 d-flex justify-content-center bg-dark tabs"
                 >
                     <Tab eventKey="cafes" title="Cafes">
                         <Row xs={2} md={2} className="g-4 m-1">
