@@ -34,7 +34,7 @@ const { addToCart } = useContext(CartContext);
             <MobileContent />
             <Navbar />
 
-            <div className="contenido">
+            <div className="contenido-snacks">
                 <Row xs={1} md={2} className="g-4 m-1">
                     {snacks.map((producto) => (
                         <Col key={producto.id}>

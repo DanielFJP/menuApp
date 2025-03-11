@@ -21,9 +21,9 @@
 
 .container h1{
   text-align: center;
-  font-family: inherit !important;
+  font-weight: 600;
   color: white;
-  margin-bottom: 40px;
+  margin-bottom: 30px;
 }
 
 
