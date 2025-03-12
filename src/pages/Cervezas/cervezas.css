@@ -1,6 +1,7 @@
 .contenido-cervezas{
   display: block;
   margin-top: 45px;
+  margin-bottom: 20px;
 }
 
 @media screen and (min-width:600px) {
@@ -86,7 +87,7 @@
 }
 
 
-.image {
+.image-cervezas {
   position: absolute;
   top: 50%;
   left: 20%;
@@ -95,11 +96,11 @@
   object-fit: cover;
   filter: drop-shadow(3px 3px 5px #18181815);
   transform: translate(-50%, -50%);
-  transition: all .5s ease-in;
+  transition: all .4s ease-in;
   z-index: 2;
 }
 
-.image img{
+.image-cervezas img{
   width: 204px;
   height: 269px;
   object-fit: contain;
@@ -108,7 +109,7 @@
 }
 
 
-.cardd:hover .image {
+.cardd:hover .image-cervezas {
    top: 20%;
   left: 10%; 
   width: 120px;
@@ -116,34 +117,34 @@
   animation: none;
   filter: blur(0.8px);
   opacity: 0.9;
-  transform: rotate(10deg) translate(-35%, -25%);
+  transform: rotate(0deg) translate(30%, -19%);
 }
 
-.text {
+.text-cervezas {
   position: absolute;
-  top: 15%;
-  left: -180%;
+  top: 18% !important;
+  left: -315%;
   color: #ffffff;
   transition: all .3s ease-in;
   z-index: 2;
-  text-shadow: 2px 2px 20px rgb(0, 0, 0);
+  text-shadow: 1px 3px 4px rgb(0, 0, 0);
 }
 
-.text span {
-  font-size: 27px;
+.text-cervezas span {
+  font-size: 21px ;
   font-weight: bold;
-  margin-bottom: 5px;
   line-height: 1.2;
 }
 
-.text p {
-  font-size: 20px;
-  font-weight: bold;
+.text-cervezas p {
+  font-size: 16px;
+  font-weight:400;
+  margin-top: 10px;
 }
 
-.cardd:hover .text {
+.cardd:hover .text-cervezas {
   top: 15%;
-  left: 5%;
+  left: 3%;
 }
 
 
@@ -179,7 +180,7 @@
   animation: none;
   filter: blur(0.8px);
   opacity: 0.9;
-  transform: rotate(10deg) translate(-35%, -25%);
+  transform: rotate(0deg) translate(17%, -23%);
 }
 
 

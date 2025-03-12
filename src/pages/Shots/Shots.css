@@ -1,5 +1,6 @@
 .contenido{
   display: block;
+  margin-bottom: 20px;
 }
 
 @media screen and (min-width:600px) {
@@ -98,32 +99,33 @@
   animation: none;
   filter: blur(0.8px);
   opacity: 0.9;
-  transform: rotate(0deg) translate(-5%, -25%);
+  transform: rotate(0deg) translate(22%, -16%);
 }
 
 .text_shots {
   position: absolute;
   top: 15%;
-  left: -215%;
+  left: -380%;
   color: #ffffff;
   transition: all .3s ease-in;
   z-index: 2;
-  text-shadow: 2px 2px 20px rgb(0, 0, 0);
+  text-shadow: 1px 3px 4px rgb(0, 0, 0);
 }
 
 .text_shots span {
-  font-size: 24px;
+  font-size: 21px;
   font-weight: bold;
   margin-bottom: 5px;
   line-height: 1.2;
 }
 
 .text_shots p {
-  font-size: 20px;
-  font-weight: bold;
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 10px;
 }
 
 .cardd_shots:hover .text_shots {
-  top: 15%;
+  top: 6%;
   left: 5%;
 }

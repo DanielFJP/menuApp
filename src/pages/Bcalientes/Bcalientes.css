@@ -114,34 +114,35 @@
   animation: none;
   filter: blur(0.8px);
   opacity: 0.9;
-  transform: rotate(0) translate(-35%, 0%);
+  transform: rotate(0) translate(35%, -20%);
 }
 
 .text_cafes{
   position: absolute;
-  top: 15%;
-  left: -180%;
+  top: 16% !important;
+  left: -270%;
   color: #ffffff;
   transition: all .3s ease-in;
   z-index: 2;
-  text-shadow: 2px 2px 20px rgb(0, 0, 0);
+  text-shadow: 1px 3px 4px rgb(0, 0, 0);
 }
 
 .text_cafes span {
-  font-size: 27px;
+  font-size: 21px;
   font-weight: bold;
   margin-bottom: 5px;
   line-height: 1.2;
 }
 
 .text_cafes p {
-  font-size: 20px;
-  font-weight: bold;
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 10px !important;
 }
 
 .cardd_cafes:hover .text_cafes {
   top: 15%;
-  left: 5%;
+  left: 4%;
 }
 
 
@@ -231,29 +232,30 @@
   animation: none;
   filter: blur(0.8px);
   opacity: 0.9;
-  transform: rotate(0deg) translate(-35%, -5%);
+  transform: rotate(0deg) translate(-35%, 15%);
 }
 
 .text_arm{
   position: absolute;
-  top: 15%;
+  top: 20% !important;
   left: -180%;
   color: #ffffff;
   transition: all .3s ease-in;
   z-index: 2;
-  text-shadow: 2px 2px 20px rgb(0, 0, 0);
+  text-shadow: 1px 3px 4px rgb(0, 0, 0);
 }
 
 .text_arm span {
-  font-size: 27px;
+  font-size: 21px;
   font-weight: bold;
   margin-bottom: 5px;
   line-height: 1.2;
 }
 
 .text_arm p {
-  font-size: 20px ;
-  font-weight: bold;
+  font-size: 16px ;
+  font-weight: 400;
+  margin-top: 10px !important;
 }
 
 .cardd_arm:hover .text_arm {
@@ -345,7 +347,7 @@
   animation: none;
   filter: blur(0.8px);
   opacity: 0.9;
-  transform: rotate(0deg) translate(-35%, 0%);
+  transform: rotate(0deg) translate(-35%, 22%);
 }
 
 .text_alh{
@@ -355,19 +357,20 @@
   color: #ffffff;
   transition: all .3s ease-in;
   z-index: 2;
-  text-shadow: 2px 2px 20px rgb(0, 0, 0);
+  text-shadow: 1px 3px 4px rgb(0, 0, 0);
 }
 
 .text_alh span {
-  font-size: 27px;
+  font-size: 21px;
   font-weight: bold;
   margin-bottom: 5px;
   line-height: 1.2;
 }
 
 .text_alh p {
-  font-size: 20px;
-  font-weight: bold;
+  font-size: 16px;
+  font-weight: 400;
+   margin-top: 10px !important;
 }
 
 .cardd_alh:hover .text_alh {

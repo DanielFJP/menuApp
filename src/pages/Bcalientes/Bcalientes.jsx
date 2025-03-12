@@ -25,24 +25,28 @@ const cafes = [
         id: 1,
         img: tinto,
         titulo: "Americano 6onz",
+        descripcion: "Café negro suave, perfecto para cualquier momento",
         precio: "$2.000",
     },
     {
         id: 2,
         img: latte_6onz,
         titulo: "Latte 6onz",
+        descripcion: "Café espresso con leche vaporizada, cremoso y balanceado",
         precio: "3.500",
     },
     {
         id: 3,
         img: latte_9onz,
         titulo: "Latte 9onz",
+        descripcion: "Café espresso con leche vaporizada, cremoso y balanceado",
         precio: "4.500",
     },
     {
         id: 4,
         img: capuchino,
         titulo: "Capuchino",
+        descripcion: "Espresso, leche vaporizada y espuma de leche, tricolor.",
         precio: "$6.000",
     },
 ];
@@ -52,12 +56,16 @@ const aromaticas = [
         id: 1,
         img: aromatica_6onz,
         titulo: "Aromatica 6onz",
+        descripcion:
+            "Bebida caliente de frutas o hierbas naturales, reconfortante y refrescante.",
         precio: "$2.000",
     },
     {
         id: 2,
         img: aromatica_9onz,
         titulo: "Aromatica 9onz",
+        descripcion:
+            "Bebida caliente de frutas o hierbas naturales, reconfortante y refrescante.",
         precio: "$3.500",
     },
 ];
@@ -67,12 +75,16 @@ const con_alcohol = [
         id: 1,
         img: capuchino_con_licor,
         titulo: "Capuchino Con Licor",
+        descripcion:
+            "Capuchino clásico con un toque de brandy para calentar el alma, 3% v/v.",
         precio: "$8.000",
     },
     {
         id: 2,
         img: vino_caliente,
         titulo: "Vino Caliente",
+        descripcion:
+            "Vino tinto especiado con canela, clavos y cítricos, ideal para noches frías, 15.5% v/v.",
         precio: "$10.000",
     },
 ];
@@ -106,16 +118,17 @@ export default function () {
                                             </div>
                                             <div className="text_cafes">
                                                 <span>{producto.titulo}</span>
-                                                <p>{producto.precio}</p>
+                                                <p>{producto.descripcion}</p>
+                                                <span>{producto.precio}</span>
                                             </div>
-                                            <button
+                                            {/*<button
                                                 className="ordenar-btn"
                                                 onClick={() =>
                                                     addToCart(producto)
                                                 }
                                             >
                                                 Ordenar
-                                            </button>
+                                            </button>*/}
                                         </div>
                                     </Card>
                                 </Col>
@@ -136,16 +149,17 @@ export default function () {
                                             </div>
                                             <div className="text_arm">
                                                 <span>{producto.titulo}</span>
-                                                <p>{producto.precio}</p>
+                                                <p>{producto.descripcion}</p>
+                                                <span>{producto.precio}</span>
                                             </div>
-                                            <button
+                                            {/*<button
                                                 className="ordenar-btn"
                                                 onClick={() =>
                                                     addToCart(producto)
                                                 }
                                             >
                                                 Ordenar
-                                            </button>
+                                            </button>*/}
                                         </div>
                                     </Card>
                                 </Col>
@@ -166,16 +180,17 @@ export default function () {
                                             </div>
                                             <div className="text_alh">
                                                 <span>{producto.titulo}</span>
-                                                <p>{producto.precio}</p>
+                                                <p>{producto.descripcion}</p>
+                                                <span>{producto.precio}</span>
                                             </div>
-                                            <button
+                                            {/*<button
                                                 className="ordenar-btn"
                                                 onClick={() =>
                                                     addToCart(producto)
                                                 }
                                             >
                                                 Ordenar
-                                            </button>
+                                            </button>*/}
                                         </div>
                                     </Card>
                                 </Col>

@@ -75,22 +75,22 @@ const { addToCart } = useContext(CartContext);
                         <Col key={producto.id}>
                             <Card>
                                 <div class="cardd">
-                                    <div className="image">
+                                    <div className="image-BsinAlcohol">
                                         <img
                                             src={producto.img}
                                             alt={producto.titulo}
                                         />
                                     </div>
-                                    <div className="text">
+                                    <div className="text-BsinAlcohol">
                                         <span>{producto.titulo}</span>
                                         <p>{producto.precio}</p>
                                     </div>
-                                    <button
+                                    {/*<button
                                         className="ordenar-btn"
                                         onClick={() => addToCart(producto)}
                                     >
                                         Ordenar
-                                    </button>
+                                    </button>*/}
                                 </div>
                             </Card>
                         </Col>

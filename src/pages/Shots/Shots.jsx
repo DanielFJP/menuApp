@@ -17,31 +17,40 @@ const shots = [
     {
         id: 1,
         img: shot_jack,
-        titulo: "Shot Jack Daniel's Old N0.7",
+        titulo: "Shot Jack Daniel's Old N0.7 1 oz",
+        descripcion:
+            "El clásico whiskey de Tennessee, sabor robusto y notas de caramelo y roble, 40% v/v.",
         precio: "$12.000",
     },
     {
         id: 2,
         img: shot_fire,
-        titulo: "Shot Jack Daniel's Fire",
+        titulo: "Shot Jack Daniel's Fire 1 oz",
+        descripcion:
+            "Whiskey con un toque de canela picante, ardiente y dulce, 35% v/v.",
         precio: "$12.000",
     },
     {
         id: 3,
         img: shot_honey,
-        titulo: "Shot Jack Daniel's Honey",
+        titulo: "Shot Jack Daniel's Honey 1 oz",
+        descripcion: "Mezcla suave de whiskey y miel, dulce y sedoso, 35% v/v.",
         precio: "$12.000",
     },
     {
         id: 4,
         img: shot_apple,
-        titulo: "Shot Jack Daniel's Apple",
+        titulo: "Shot Jack Daniel's Apple 1 oz",
+        descripcion:
+            "Whiskey infusionado con manzana verde, fresco y afrutado, 35% v/v.",
         precio: "$12.000",
     },
     {
         id: 5,
         img: shot_jager,
-        titulo: "Shot Jägermeister",
+        titulo: "Shot Jägermeister 1 oz",
+        descripcion:
+            "Licor alemán de hierbas, con un sabor intenso y ligeramente dulce, 35% v/v.",
         precio: "$9.000",
     },
 ];
@@ -69,14 +78,15 @@ const { addToCart } = useContext(CartContext);
                                     </div>
                                     <div className="text_shots">
                                         <span>{producto.titulo}</span>
-                                        <p>{producto.precio}</p>
+                                        <p>{producto.descripcion}</p>
+                                        <span>{producto.precio}</span>
                                     </div>
-                                    <button
+                                    {/*<button
                                         className="ordenar-btn"
                                         onClick={() => addToCart(producto)}
                                     >
                                         Ordenar
-                                    </button>
+                                    </button>*/}
                                 </div>
                             </Card>
                         </Col>

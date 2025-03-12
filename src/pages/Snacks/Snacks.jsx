@@ -50,12 +50,12 @@ const { addToCart } = useContext(CartContext);
                                         <span>{producto.titulo}</span>
                                         <p>{producto.precio}</p>
                                     </div>
-                                    <button
+                                    {/*<button
                                         className="ordenar-btn"
                                         onClick={() => addToCart(producto)}
                                     >
                                         Ordenar
-                                    </button>
+                                    </button>*/}
                                 </div>
                             </Card>
                         </Col>

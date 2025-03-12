@@ -64,7 +64,7 @@
   height: 65px;
 }
 
-.image {
+.image-BsinAlcohol {
   position: absolute;
   top: 50%;
   left: 20%;
@@ -76,7 +76,7 @@
   transition: all .5s ease-in;
 }
 
-.image img{
+.image-BsinAlcohol img{
   width: 204px;
   height: 269px;
   object-fit: contain;
@@ -85,7 +85,7 @@
 }
 
 
-.cardd:hover .image {
+.cardd:hover .image-BsinAlcohol {
    top: 20%;
   left: 30%; 
   width: 120px;
@@ -96,28 +96,28 @@
   transform: rotate(15deg) translate(-35%, -25%);
 }
 
-.text {
+.text-BsinAlcohol {
   position: absolute;
-  top: 15%;
+  top: 30% !important;
   left: -180%;
   color: #ffffff;
   transition: all .3s ease-in;
   z-index: 2;
-  text-shadow: 2px 2px 20px rgb(0, 0, 0);
+  text-shadow: 1px 3px 4px rgb(0, 0, 0);
 }
 
-.text span {
+.text-BsinAlcohol span {
   font-size: 26px;
   font-weight: bold;
   margin-bottom: 5px;
 }
 
-.text p {
+.text-BsinAlcohol p {
   font-size: 20px;
   font-weight: bold;
 }
 
-.cardd:hover .text {
+.cardd:hover .text-BsinAlcohol {
   top: 15%;
   left: 5%;
 }

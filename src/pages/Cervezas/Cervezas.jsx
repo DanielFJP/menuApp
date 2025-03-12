@@ -42,55 +42,65 @@ const nacionales = [
     {
         id: 1,
         img: aguila,
-        titulo: "Aguila Original",
-        precio: "$4.500",
+        titulo: "Aguila Original 330ml",
+        descripcion: "Lager refrescante, sabor suave y tradicional, 4% ABV.",
+        precio: "$5.000",
     },
     {
         id: 2,
         img: aguila_light,
-        titulo: "Aguila Light",
+        titulo: "Aguila Light 330ml",
+        descripcion:
+            "Versión ligera, menos calorías, misma frescura, 3.4% ABV.",
         precio: "$5.000",
     },
     {
         id: 3,
         img: poker,
-        titulo: "Poker",
-        precio: "$4.500",
+        titulo: "Poker 330ml",
+        descripcion: "Lager suave, perfecta para compartir, 4% ABV.",
+        precio: "$5.000",
     },
     {
         id: 4,
         img: costeña,
-        titulo: "Costeña",
+        titulo: "Costeña 330ml",
+        descripcion: "Cerveza clásica colombiana, sabor balanceado, 4% ABV.",
         precio: "$4.000",
     },
     {
         id: 5,
         img: club_dorada,
-        titulo: "Club Colombia Dorada",
-        precio: "$5.000",
+        titulo: "Club Colombia Dorada 330ml",
+        descripcion: "Lager premium, sabor balanceado, 4.7% ABV.",
+        precio: "$6.000",
     },
     {
         id: 6,
         img: club_roja,
-        titulo: "Club Colombia Roja",
-        precio: "$5.000",
+        titulo: "Club Colombia Roja 330ml",
+        descripcion: "Cuerpo medio y notas acarameladas, 5% ABV.",
+        precio: "$6.000",
     },
     {
         id: 7,
         img: club_negra,
-        titulo: "Club Colombia Negra",
-        precio: "$5.000",
+        titulo: "Club Colombia Negra 330ml",
+        descripcion: "Cerveza oscura con notas a café y chocolate, 5% ABV.",
+        precio: "$6.000",
     },
     {
         id: 8,
         img: club_trigo,
-        titulo: "Club Colombia Trigo",
-        precio: "$6.000",
+        titulo: "Club Colombia Trigo 330ml",
+        descripcion: "Cerveza de trigo, fresca y afrutada, 5% ABV.",
+        precio: "$7.000",
     },
     {
         id: 9,
         img: club_grande,
-        titulo: "Club Colombion",
+        titulo: "Club Colombia Dorada 500ml",
+        descripcion: "Versión grande de la dorada, 4.7% ABV.",
         precio: "$10.000",
     },
 ];
@@ -100,79 +110,103 @@ const artesanales = [
     {
         id: 1,
         img: bbc_cajica,
-        titulo: "BBC Cajica",
+        titulo: "BBC Cajica 330ml",
+        descripcion:
+            "Cerveza rubia dulce y refrescante con miel de abejas, 5% v/v. ",
         precio: "$10.000",
     },
     {
         id: 2,
         img: bbc_monserrate,
-        titulo: "BBC Monserrate",
+        titulo: "BBC Monserrate 330ml",
+        descripcion:
+            "Cerveza roja de pura malta, con un sabor afrutado, 5% v/v.",
         precio: "$10.000",
     },
     {
         id: 3,
         img: bbc_chapinero,
-        titulo: "BBC Chapinero",
+        titulo: "BBC Chapinero 330ml",
+        descripcion:
+            "Cerveza negra de pura malta tostada, robusta y cremosa, 5% v/v.",
         precio: "$10.000",
     },
     {
         id: 4,
         img: bbc_bacata,
-        titulo: "BBC Bacata",
+        titulo: "BBC Bacata 330ml",
+        descripcion:
+            "Cerveza blanca de trigo con cáscaras de naranja y coriandro, 4.1% v/v.",
         precio: "$10.000",
     },
     {
         id: 5,
         img: bbc_rose,
-        titulo: "BBC Rose",
+        titulo: "BBC Rose 330ml",
+        descripcion:
+            "Cerveza rosada con sabor y aroma dulce y a fresa, 3.6% v/v.",
         precio: "$10.000",
     },
     {
         id: 6,
         img: bbc_lager,
-        titulo: "BBC Lager",
+        titulo: "BBC Lager 330ml",
+        descripcion: "Clásica, refrescante y equilibrada, 5% v/v.",
         precio: "$10.000",
     },
     {
         id: 7,
         img: bbc_macondo,
-        titulo: "BBC Macondo",
+        titulo: "BBC Macondo 330ml",
+        descripcion:
+            "Cerveza negra con infusión de café Colombiano, tipo stout, 5% v/v.",
         precio: "$10.000",
     },
     {
         id: 8,
         img: rosada,
-        titulo: "3 Cordilleras Rosada",
+        titulo: "3 Cordilleras Rosada 330ml",
+        descripcion:
+            "Suave, balance perfecto entre dulzura y frutos rojos, 3.8 v/v.",
         precio: "$10.000",
     },
     {
         id: 9,
         img: negra,
-        titulo: "3 Cordilleras Negra",
+        titulo: "3 Cordilleras Negra 330ml",
+        descripcion: "fuerte, con aroma y sabor a chocolate y café, 6.4% v/v.",
         precio: "$10.000",
     },
     {
         id: 10,
         img: mulata,
-        titulo: "3 Cordilleras Mulata",
+        titulo: "3 Cordilleras Mulata 330ml",
+        descripcion:
+            "Maltosa, con toques acaramelados y ﬁnal amaderado, 5.2% v/v.",
         precio: "$10.000",
     },
     {
         id: 11,
         img: mona,
-        titulo: "3 Cordilleras Mona",
+        titulo: "3 Cordilleras Mona 330ml",
+        descripcion:
+            " Refrescante y ligera, con suaves notas cítricas, 3.9% v/v.",
         precio: "$10.000",
     },
     {
         id: 12,
         img: mestiza,
-        titulo: "3 Cordilleras Mestiza",
+        titulo: "3 Cordilleras Mestiza 330ml",
+        descripcion:
+            "Cítrica en aroma y sabor, amargo pronunciado y ﬁnal seco, 4.8% v/v.",
         precio: "$10.000",
     },
     {
         id: 13,
         img: blanca,
         titulo: "3 Cordilleras Blanca",
+        descripcion:
+            "Suave, fresca, notas ﬂorales tenues, sin sensación de amargo, 4.6% v/v.",
         precio: "$10.000",
     },
 ];
@@ -181,19 +215,22 @@ const importadas = [
     {
         id: 1,
         img: corona,
-        titulo: "Corona Extra",
+        titulo: "Corona Extra 355ml",
+        descripcion: "Lager mexicana, refrescante y ligera, 4.5% v/v.",
         precio: "$10.000",
     },
     {
         id: 2,
         img: coronita,
-        titulo: "Coronita",
+        titulo: "Coronita 210ml",
+        descripcion: "Versión pequeña de Corona, 4.5% v/v.",
         precio: "$6.000",
     },
     {
         id: 3,
         img: stella,
-        titulo: "Stella Artois",
+        titulo: "Stella Artois 330ml",
+        descripcion: "Lager belga premium, cuerpo ligero y sabor refinado, 5% v/v.",
         precio: "$10.000",
     },
 ];
@@ -222,24 +259,25 @@ export default function () {
                               <Col key={producto.id}>
                                   <Card>
                                       <div className="cardd">
-                                          <div className="image">
+                                          <div className="image-cervezas">
                                               <img
                                                   src={producto.img}
                                                   alt={producto.titulo}
                                               />
                                           </div>
-                                          <div className="text">
+                                          <div className="text-cervezas">
                                               <span>{producto.titulo}</span>
-                                              <p>{producto.precio}</p>
+                                              <p>{producto.descripcion}</p>
+                                              <span>{producto.precio}</span>
                                           </div>
-                                          <button
+                                          {/*<button
                                               className="ordenar-btn"
                                               onClick={() =>
                                                   addToCart(producto)
                                               }
                                           >
                                               Ordenar
-                                          </button>
+                                          </button>*/}
                                       </div>
                                   </Card>
                               </Col>
@@ -259,18 +297,19 @@ export default function () {
                                                   alt={producto.titulo}
                                               />
                                           </div>
-                                          <div className="text">
+                                          <div className="text-cervezas">
                                               <span>{producto.titulo}</span>
-                                              <p>{producto.precio}</p>
+                                              <p>{producto.descripcion}</p>
+                                              <span>{producto.precio}</span>
                                           </div>
-                                          <button
+                                          {/*<button
                                               className="ordenar-btn"
                                               onClick={() =>
                                                   addToCart(producto)
                                               }
                                           >
                                               Ordenar
-                                          </button>
+                                          </button>*/}
                                       </div>
                                   </Card>
                               </Col>
@@ -283,24 +322,25 @@ export default function () {
                               <Col key={producto.id}>
                                   <Card>
                                       <div className="cardd">
-                                          <div className="image">
+                                          <div className="image-cervezas">
                                               <img
                                                   src={producto.img}
                                                   alt={producto.titulo}
                                               />
                                           </div>
-                                          <div className="text">
+                                          <div className="text-cervezas">
                                               <span>{producto.titulo}</span>
-                                              <p>{producto.precio}</p>
+                                              <p>{producto.descripcion}</p>
+                                              <span>{producto.precio}</span>
                                           </div>
-                                          <button
+                                          {/*<button
                                               className="ordenar-btn"
                                               onClick={() =>
                                                   addToCart(producto)
                                               }
                                           >
                                               Ordenar
-                                          </button>
+                                          </button>*/}
                                       </div>
                                   </Card>
                               </Col>

@@ -98,17 +98,17 @@
   animation: none;
   filter: blur(0.8px);
   opacity: 0.9;
-  transform: rotate(15deg) translate(-35%, -25%);
+  transform: rotate(0deg) translate(-70%, 10%);
 }
 
 .text_snacks {
   position: absolute;
-  top: 15%;
+  top: 30% !important;
   left: -180%;
   color: #ffffff;
   transition: all .3s ease-in;
   z-index: 2;
-  text-shadow: 2px 2px 20px rgb(0, 0, 0);
+  text-shadow: 1px 3px 4px rgb(0, 0, 0);
 }
 
 .text_snacks span {

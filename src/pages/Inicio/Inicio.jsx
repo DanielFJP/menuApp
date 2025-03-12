@@ -13,8 +13,8 @@ function Inicio() {
 
             <div className="container">
                 <h1>
-                    Holaa <br /> te estábamos esperando <br /> ¿Que deseas tomar
-                    hoy?
+                    ¡Holaa! <br /> te estábamos esperando 🍻
+                    <br /> ¿Qué se te antoja tomar hoy?
                 </h1>
 
                 <Link to="/cervezas" className="boton_producto">

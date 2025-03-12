@@ -4,7 +4,7 @@
     flex-direction: column;
     width: 100%;
     height: auto;
-    margin-top: 40px;
+    margin-top: 60px;
 }
 
 @media screen and (min-width:600px) {
@@ -24,12 +24,13 @@
   font-weight: 600;
   color: white;
   margin-bottom: 30px;
+  font-size: 25px;
 }
 
 
 .boton_producto {
   font-family: inherit;
-  font-size: 20px;
+  font-size: 18px;
   width: 80vw;
   padding: 0.7em 1em;
   padding-left: 0.9em;
