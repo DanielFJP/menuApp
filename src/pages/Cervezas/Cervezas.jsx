@@ -45,6 +45,7 @@ const nacionales = [
         titulo: "Aguila Original 330ml",
         descripcion: "Lager refrescante, sabor suave y tradicional, 4% ABV.",
         precio: "$5.000",
+        disponible: true,
     },
     {
         id: 2,
@@ -53,6 +54,7 @@ const nacionales = [
         descripcion:
             "Versión ligera, menos calorías, misma frescura, 3.4% ABV.",
         precio: "$5.000",
+        disponible: true,
     },
     {
         id: 3,
@@ -60,6 +62,7 @@ const nacionales = [
         titulo: "Poker 330ml",
         descripcion: "Lager suave, perfecta para compartir, 4% ABV.",
         precio: "$5.000",
+        disponible: true,
     },
     {
         id: 4,
@@ -67,6 +70,7 @@ const nacionales = [
         titulo: "Costeña 330ml",
         descripcion: "Cerveza clásica colombiana, sabor balanceado, 4% ABV.",
         precio: "$4.000",
+        disponible: true,
     },
     {
         id: 5,
@@ -74,6 +78,7 @@ const nacionales = [
         titulo: "Club Colombia Dorada 330ml",
         descripcion: "Lager premium, sabor balanceado, 4.7% ABV.",
         precio: "$6.000",
+        disponible: true,
     },
     {
         id: 6,
@@ -81,6 +86,7 @@ const nacionales = [
         titulo: "Club Colombia Roja 330ml",
         descripcion: "Cuerpo medio y notas acarameladas, 5% ABV.",
         precio: "$6.000",
+        disponible: true,
     },
     {
         id: 7,
@@ -88,6 +94,7 @@ const nacionales = [
         titulo: "Club Colombia Negra 330ml",
         descripcion: "Cerveza oscura con notas a café y chocolate, 5% ABV.",
         precio: "$6.000",
+        disponible: true,
     },
     {
         id: 8,
@@ -95,6 +102,7 @@ const nacionales = [
         titulo: "Club Colombia Trigo 330ml",
         descripcion: "Cerveza de trigo, fresca y afrutada, 5% ABV.",
         precio: "$7.000",
+        disponible: false,
     },
     {
         id: 9,
@@ -102,6 +110,7 @@ const nacionales = [
         titulo: "Club Colombia Dorada 500ml",
         descripcion: "Versión grande de la dorada, 4.7% ABV.",
         precio: "$10.000",
+        disponible: false,
     },
 ];
 
@@ -114,6 +123,7 @@ const artesanales = [
         descripcion:
             "Cerveza rubia dulce y refrescante con miel de abejas, 5% v/v. ",
         precio: "$10.000",
+        disponible: true,
     },
     {
         id: 2,
@@ -122,6 +132,7 @@ const artesanales = [
         descripcion:
             "Cerveza roja de pura malta, con un sabor afrutado, 5% v/v.",
         precio: "$10.000",
+        disponible: false,
     },
     {
         id: 3,
@@ -130,6 +141,7 @@ const artesanales = [
         descripcion:
             "Cerveza negra de pura malta tostada, robusta y cremosa, 5% v/v.",
         precio: "$10.000",
+        disponible: false,
     },
     {
         id: 4,
@@ -138,6 +150,7 @@ const artesanales = [
         descripcion:
             "Cerveza blanca de trigo con cáscaras de naranja y coriandro, 4.1% v/v.",
         precio: "$10.000",
+        disponible: false,
     },
     {
         id: 5,
@@ -146,6 +159,7 @@ const artesanales = [
         descripcion:
             "Cerveza rosada con sabor y aroma dulce y a fresa, 3.6% v/v.",
         precio: "$10.000",
+        disponible: false,
     },
     {
         id: 6,
@@ -153,6 +167,7 @@ const artesanales = [
         titulo: "BBC Lager 330ml",
         descripcion: "Clásica, refrescante y equilibrada, 5% v/v.",
         precio: "$10.000",
+        disponible: false,
     },
     {
         id: 7,
@@ -161,6 +176,7 @@ const artesanales = [
         descripcion:
             "Cerveza negra con infusión de café Colombiano, tipo stout, 5% v/v.",
         precio: "$10.000",
+        disponible: false,
     },
     {
         id: 8,
@@ -169,6 +185,7 @@ const artesanales = [
         descripcion:
             "Suave, balance perfecto entre dulzura y frutos rojos, 3.8 v/v.",
         precio: "$10.000",
+        disponible: false,
     },
     {
         id: 9,
@@ -176,6 +193,7 @@ const artesanales = [
         titulo: "3 Cordilleras Negra 330ml",
         descripcion: "fuerte, con aroma y sabor a chocolate y café, 6.4% v/v.",
         precio: "$10.000",
+        disponible: false,
     },
     {
         id: 10,
@@ -184,6 +202,7 @@ const artesanales = [
         descripcion:
             "Maltosa, con toques acaramelados y ﬁnal amaderado, 5.2% v/v.",
         precio: "$10.000",
+        disponible: false,
     },
     {
         id: 11,
@@ -192,6 +211,7 @@ const artesanales = [
         descripcion:
             " Refrescante y ligera, con suaves notas cítricas, 3.9% v/v.",
         precio: "$10.000",
+        disponible: false,
     },
     {
         id: 12,
@@ -200,6 +220,7 @@ const artesanales = [
         descripcion:
             "Cítrica en aroma y sabor, amargo pronunciado y ﬁnal seco, 4.8% v/v.",
         precio: "$10.000",
+        disponible: false,
     },
     {
         id: 13,
@@ -208,6 +229,7 @@ const artesanales = [
         descripcion:
             "Suave, fresca, notas ﬂorales tenues, sin sensación de amargo, 4.6% v/v.",
         precio: "$10.000",
+        disponible: false,
     },
 ];
 
@@ -218,6 +240,7 @@ const importadas = [
         titulo: "Corona Extra 355ml",
         descripcion: "Lager mexicana, refrescante y ligera, 4.5% v/v.",
         precio: "$10.000",
+        disponible: false,
     },
     {
         id: 2,
@@ -225,13 +248,16 @@ const importadas = [
         titulo: "Coronita 210ml",
         descripcion: "Versión pequeña de Corona, 4.5% v/v.",
         precio: "$6.000",
+        disponible: true,
     },
     {
         id: 3,
         img: stella,
         titulo: "Stella Artois 330ml",
-        descripcion: "Lager belga premium, cuerpo ligero y sabor refinado, 5% v/v.",
+        descripcion:
+            "Lager belga premium, cuerpo ligero y sabor refinado, 5% v/v.",
         precio: "$10.000",
+        disponible: false,
     },
 ];
 
@@ -259,10 +285,20 @@ export default function () {
                               <Col key={producto.id}>
                                   <Card>
                                       <div className="cardd">
+                                          {!producto.disponible && (
+                                              <div className="no-disponible">
+                                                  No Disponible
+                                              </div>
+                                          )}
                                           <div className="image-cervezas">
                                               <img
                                                   src={producto.img}
                                                   alt={producto.titulo}
+                                                  style={{
+                                                      filter: producto.disponible
+                                                          ? "none"
+                                                          : "grayscale(100%)",
+                                                  }}
                                               />
                                           </div>
                                           <div className="text-cervezas">
@@ -290,11 +326,21 @@ export default function () {
                           {artesanales.map((producto) => (
                               <Col key={producto.id}>
                                   <Card>
-                                      <div class="cardd">
+                                      <div className="cardd">
+                                          {!producto.disponible && (
+                                              <div className="no-disponible">
+                                                  No Disponible
+                                              </div>
+                                          )}
                                           <div className="image_art">
                                               <img
                                                   src={producto.img}
                                                   alt={producto.titulo}
+                                                  style={{
+                                                      filter: producto.disponible
+                                                          ? "none"
+                                                          : "grayscale(100%)",
+                                                  }}
                                               />
                                           </div>
                                           <div className="text-cervezas">
@@ -322,10 +368,20 @@ export default function () {
                               <Col key={producto.id}>
                                   <Card>
                                       <div className="cardd">
+                                          {!producto.disponible && (
+                                              <div className="no-disponible">
+                                                  No Disponible
+                                              </div>
+                                          )}
                                           <div className="image-cervezas">
                                               <img
                                                   src={producto.img}
                                                   alt={producto.titulo}
+                                                  style={{
+                                                      filter: producto.disponible
+                                                          ? "none"
+                                                          : "grayscale(100%)",
+                                                  }}
                                               />
                                           </div>
                                           <div className="text-cervezas">

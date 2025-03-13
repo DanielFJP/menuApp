@@ -21,6 +21,7 @@ const shots = [
         descripcion:
             "El clásico whiskey de Tennessee, sabor robusto y notas de caramelo y roble, 40% v/v.",
         precio: "$12.000",
+        disponible: true,
     },
     {
         id: 2,
@@ -29,6 +30,7 @@ const shots = [
         descripcion:
             "Whiskey con un toque de canela picante, ardiente y dulce, 35% v/v.",
         precio: "$12.000",
+        disponible: true,
     },
     {
         id: 3,
@@ -36,6 +38,7 @@ const shots = [
         titulo: "Shot Jack Daniel's Honey 1 oz",
         descripcion: "Mezcla suave de whiskey y miel, dulce y sedoso, 35% v/v.",
         precio: "$12.000",
+        disponible: false,
     },
     {
         id: 4,
@@ -44,6 +47,7 @@ const shots = [
         descripcion:
             "Whiskey infusionado con manzana verde, fresco y afrutado, 35% v/v.",
         precio: "$12.000",
+        disponible: false,
     },
     {
         id: 5,
@@ -52,6 +56,7 @@ const shots = [
         descripcion:
             "Licor alemán de hierbas, con un sabor intenso y ligeramente dulce, 35% v/v.",
         precio: "$9.000",
+        disponible: true,
     },
 ];
 
@@ -70,10 +75,20 @@ const { addToCart } = useContext(CartContext);
                         <Col key={producto.id}>
                             <Card>
                                 <div className="cardd_shots">
+                                    {!producto.disponible && (
+                                        <div className="no-disponible">
+                                            No Disponible
+                                        </div>
+                                    )}
                                     <div className="image_shots">
                                         <img
                                             src={producto.img}
                                             alt={producto.titulo}
+                                            style={{
+                                                filter: producto.disponible
+                                                    ? "none"
+                                                    : "grayscale(100%)",
+                                            }}
                                         />
                                     </div>
                                     <div className="text_shots">

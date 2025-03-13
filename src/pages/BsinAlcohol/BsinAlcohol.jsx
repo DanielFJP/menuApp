@@ -21,42 +21,49 @@ const SinAlcohol = [
         img: Zalva,
         titulo: "Agua Zalva",
         precio: "$3.000",
+        disponible: true,
     },
     {
         id: 2,
         img: colombiana,
         titulo: "Colombiana",
         precio: "$3.500",
+        disponible: true,
     },
     {
         id: 3,
         img: hit_tropical,
         titulo: "Jugo Hit Tropical",
         precio: "$3.500",
+        disponible: true,
     },
     {
         id: 4,
         img: hit_lulo,
         titulo: "Jugo Hit Lulo",
         precio: "$3.500",
+        disponible: false,
     },
     {
         id: 5,
         img: hit_mango,
         titulo: "Jugo Hit Mango",
         precio: "$3.500",
+        disponible: true,
     },
     {
         id: 6,
         img: hit_mora,
         titulo: "Jugo Hit Mora",
         precio: "$3.500",
+        disponible: true,
     },
     {
         id: 7,
         img: hit_naranja,
         titulo: "Jugo Hit Naranja Piña",
         precio: "$3.500",
+        disponible: false,
     },
 ];
 
@@ -74,11 +81,21 @@ const { addToCart } = useContext(CartContext);
                     {SinAlcohol.map((producto) => (
                         <Col key={producto.id}>
                             <Card>
-                                <div class="cardd">
+                                <div className="cardd">
+                                    {!producto.disponible && (
+                                        <div className="no-disponible">
+                                            No Disponible
+                                        </div>
+                                    )}
                                     <div className="image-BsinAlcohol">
                                         <img
                                             src={producto.img}
                                             alt={producto.titulo}
+                                            style={{
+                                                filter: producto.disponible
+                                                    ? "none"
+                                                    : "grayscale(100%)",
+                                            }}
                                         />
                                     </div>
                                     <div className="text-BsinAlcohol">

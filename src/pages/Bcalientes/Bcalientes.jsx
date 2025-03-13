@@ -27,6 +27,7 @@ const cafes = [
         titulo: "Americano 6onz",
         descripcion: "Café negro suave, perfecto para cualquier momento",
         precio: "$2.000",
+        disponible: true,
     },
     {
         id: 2,
@@ -34,6 +35,7 @@ const cafes = [
         titulo: "Latte 6onz",
         descripcion: "Café espresso con leche vaporizada, cremoso y balanceado",
         precio: "3.500",
+        disponible: true,
     },
     {
         id: 3,
@@ -41,6 +43,7 @@ const cafes = [
         titulo: "Latte 9onz",
         descripcion: "Café espresso con leche vaporizada, cremoso y balanceado",
         precio: "4.500",
+        disponible: true,
     },
     {
         id: 4,
@@ -48,6 +51,7 @@ const cafes = [
         titulo: "Capuchino",
         descripcion: "Espresso, leche vaporizada y espuma de leche, tricolor.",
         precio: "$6.000",
+        disponible: true,
     },
 ];
 
@@ -59,6 +63,7 @@ const aromaticas = [
         descripcion:
             "Bebida caliente de frutas o hierbas naturales, reconfortante y refrescante.",
         precio: "$2.000",
+        disponible: true,
     },
     {
         id: 2,
@@ -67,6 +72,7 @@ const aromaticas = [
         descripcion:
             "Bebida caliente de frutas o hierbas naturales, reconfortante y refrescante.",
         precio: "$3.500",
+        disponible: true,
     },
 ];
 
@@ -78,6 +84,7 @@ const con_alcohol = [
         descripcion:
             "Capuchino clásico con un toque de brandy para calentar el alma, 3% v/v.",
         precio: "$8.000",
+        disponible: true,
     },
     {
         id: 2,
@@ -86,6 +93,7 @@ const con_alcohol = [
         descripcion:
             "Vino tinto especiado con canela, clavos y cítricos, ideal para noches frías, 15.5% v/v.",
         precio: "$10.000",
+        disponible: false,
     },
 ];
 
@@ -110,10 +118,20 @@ export default function () {
                                 <Col key={producto.id}>
                                     <Card>
                                         <div className="cardd_cafes">
+                                            {!producto.disponible && (
+                                                <div className="no-disponible">
+                                                    No Disponible
+                                                </div>
+                                            )}
                                             <div className="image_cafes">
                                                 <img
                                                     src={producto.img}
                                                     alt={producto.titulo}
+                                                    style={{
+                                                        filter: producto.disponible
+                                                            ? "none"
+                                                            : "grayscale(100%)",
+                                                    }}
                                                 />
                                             </div>
                                             <div className="text_cafes">
@@ -141,10 +159,20 @@ export default function () {
                                 <Col key={producto.id}>
                                     <Card>
                                         <div class="cardd_arm">
+                                            {!producto.disponible && (
+                                                <div className="no-disponible">
+                                                    No Disponible
+                                                </div>
+                                            )}
                                             <div className="image_arm">
                                                 <img
                                                     src={producto.img}
                                                     alt={producto.titulo}
+                                                    style={{
+                                                        filter: producto.disponible
+                                                            ? "none"
+                                                            : "grayscale(100%)",
+                                                    }}
                                                 />
                                             </div>
                                             <div className="text_arm">
@@ -172,10 +200,20 @@ export default function () {
                                 <Col key={producto.id}>
                                     <Card>
                                         <div class="cardd_alh">
+                                            {!producto.disponible && (
+                                                <div className="no-disponible">
+                                                    No Disponible
+                                                </div>
+                                            )}
                                             <div className="image_alh">
                                                 <img
                                                     src={producto.img}
                                                     alt={producto.titulo}
+                                                    style={{
+                                                        filter: producto.disponible
+                                                            ? "none"
+                                                            : "grayscale(100%)",
+                                                    }}
                                                 />
                                             </div>
                                             <div className="text_alh">

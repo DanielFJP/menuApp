@@ -14,14 +14,16 @@ const snacks = [
     {
         id: 1,
         img: todorico,
-        titulo: "Todo Rico BBQ",
+        titulo: "Todo Rico BBQ 45g",
         precio: "$4.000",
+        disponible: true,
     },
     {
         id: 2,
         img: detodito,
-        titulo: "De Todito BBQ",
+        titulo: "De Todito BBQ 45g",
         precio: "$4.000",
+        disponible: true,
     },
 ];
 
@@ -40,10 +42,20 @@ const { addToCart } = useContext(CartContext);
                         <Col key={producto.id}>
                             <Card>
                                 <div className="cardd_snacks">
+                                    {!producto.disponible && (
+                                        <div className="no-disponible">
+                                            No Disponible
+                                        </div>
+                                    )}
                                     <div className="image_snacks">
                                         <img
                                             src={producto.img}
                                             alt={producto.titulo}
+                                            style={{
+                                                filter: producto.disponible
+                                                    ? "none"
+                                                    : "grayscale(100%)",
+                                            }}
                                         />
                                     </div>
                                     <div className="text_snacks">
