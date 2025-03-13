@@ -120,7 +120,7 @@
 .text_cafes{
   position: absolute;
   top: 16% !important;
-  left: -270%;
+  left: -300%;
   color: #ffffff;
   transition: all .3s ease-in;
   z-index: 2;

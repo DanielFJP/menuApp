@@ -105,7 +105,7 @@
 .text_shots {
   position: absolute;
   top: 15%;
-  left: -380%;
+  left: -400%;
   color: #ffffff;
   transition: all .3s ease-in;
   z-index: 2;
