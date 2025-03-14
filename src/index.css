@@ -12,6 +12,7 @@ body{
     min-height: 100vh;
     background-attachment: fixed;
     overflow-x: hidden;
+    height: 100dvh !important;
 }
 
 body::before{
@@ -20,7 +21,7 @@ body::before{
     top: 0;
     left: 0;
     width: 100%;
-    height: 100vh;
+    height: 100dvh;
     background-color: rgba(0, 0, 0, 0.5);
     z-index: -1;
 }
