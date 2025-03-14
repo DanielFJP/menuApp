@@ -159,7 +159,7 @@ const artesanales = [
         descripcion:
             "Cerveza rosada con sabor y aroma dulce y a fresa, 3.6% v/v.",
         precio: "$10.000",
-        disponible: false,
+        disponible: true,
     },
     {
         id: 6,
