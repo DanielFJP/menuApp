@@ -115,6 +115,35 @@ function Inicio() {
                     </div>
                     <span>Shots</span>
                 </Link>
+
+                <hr className="linea" />
+
+                <Link
+                    to="https://tally.so/r/3yz1PB"
+                    className="boton_producto"
+                    id="boton_musica"
+                >
+                    <div class="svg-wrapper-1">
+                        <div class="svg-wrapper">
+                            <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="25"
+                                height="25"
+                                viewBox="0 0 24 24"
+                            >
+                                <path
+                                    fill="none"
+                                    stroke="currentColor"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    stroke-width="2"
+                                    d="M17 15.5V5s3 1 3 4m-7-3H4m9 4H4m4 4H4m13 2.4c0 1.326-1.343 2.4-3 2.4s-3-1.075-3-2.4s1.343-2.4 3-2.4s3 1.075 3 2.4"
+                                />
+                            </svg>
+                        </div>
+                    </div>
+                    <span>Pide tu canción</span>
+                </Link>
             </div>
         </div>
     );

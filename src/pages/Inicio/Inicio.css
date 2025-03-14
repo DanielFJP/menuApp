@@ -4,7 +4,8 @@
     flex-direction: column;
     width: 100%;
     height: auto;
-    margin-top: 60px;
+    margin-top: 40px;
+    gap: 15px;
 }
 
 @media screen and (min-width:600px) {
@@ -23,7 +24,7 @@
   text-align: center;
   font-weight: 600;
   color: white;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
   font-size: 25px;
 }
 
@@ -42,7 +43,7 @@
   overflow: hidden;
   transition: all 0.2s;
   cursor: pointer;
-  margin-bottom: 15px;
+  
   text-decoration: none;
 }
 
@@ -94,4 +95,15 @@
   }
 }
 
+#boton_musica{
+  background: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  color: #000000;
+  font-weight: 600;
+}
 
+.linea{
+  border: #fff 1px solid;
+  width: 85%;
+  margin: 0;
+}

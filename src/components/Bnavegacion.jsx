@@ -92,7 +92,6 @@ function Bnavegacion() {
                     />
                 </Navbar.Brand>
 
-
                 {/*<div className="pedido" onClick={toggleCart}>
                     <svg
                         xmlns="http://www.w3.org/2000/svg"
@@ -113,7 +112,6 @@ function Bnavegacion() {
                     )}
                 </div>*/}
 
-                
                 <input
                     type="checkbox"
                     id="checkbox"
@@ -162,6 +160,13 @@ function Bnavegacion() {
                             onClick={handleNavLinkClick}
                         >
                             Shots
+                        </Nav.Link>
+                        <Nav.Link
+                            as={Link}
+                            to="https://tally.so/r/3yz1PB"
+                            onClick={handleNavLinkClick}
+                        >
+                            Pide tu Canción
                         </Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
