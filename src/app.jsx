@@ -11,25 +11,40 @@ import Administracion from "./pages/Administracion/Administracion";
 
 import Navbar from "./components/Bnavegacion";
 import MobileContent from "./components/MobileContent";
+import Layout from "./components/Layout";
+
   
   
 export function App() {
     return (
         <CartProvider>
             <BrowserRouter>
+                
+                    <Routes>
+                        <Route path="/navbar" element={<Navbar />} />
+                        <Route
+                            path="/mobile_content"
+                            element={<MobileContent />}
+                        />
 
-                <Routes>
-                    <Route path="/navbar" element={<Navbar/>}/>
-                    <Route path="/mobile_content" element={<MobileContent />} />
-
-                    <Route index path="/" element={<Inicio />} />
-                    <Route path="/cervezas" element={<Cervezas />} />
-                    <Route path="/bebidas_calientes" element={<Bcalientes />} />
-                    <Route path="/bebidas_sin_alcohol" element={<BsinAlcohol />}/>
-                    <Route path="/snacks" element={<Snacks />} />
-                    <Route path="/shots" element={<Shots />} />
-                    <Route path="/administracion" element={<Administracion/>} />
-                </Routes>
+                        <Route index path="/" element={<Inicio />} />
+                        <Route path="/cervezas" element={<Cervezas />} />
+                        <Route
+                            path="/bebidas_calientes"
+                            element={<Bcalientes />}
+                        />
+                        <Route
+                            path="/bebidas_sin_alcohol"
+                            element={<BsinAlcohol />}
+                        />
+                        <Route path="/snacks" element={<Snacks />} />
+                        <Route path="/shots" element={<Shots />} />
+                        <Route
+                            path="/administracion"
+                            element={<Administracion />}
+                        />
+                    </Routes>
+                
             </BrowserRouter>
         </CartProvider>
     );
