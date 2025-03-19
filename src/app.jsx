@@ -11,7 +11,6 @@ import Administracion from "./pages/Administracion/Administracion";
 
 import Navbar from "./components/Bnavegacion";
 import MobileContent from "./components/MobileContent";
-import Layout from "./components/Layout";
 
   
   
@@ -19,7 +18,6 @@ export function App() {
     return (
         <CartProvider>
             <BrowserRouter>
-                
                     <Routes>
                         <Route path="/navbar" element={<Navbar />} />
                         <Route
@@ -44,7 +42,6 @@ export function App() {
                             element={<Administracion />}
                         />
                     </Routes>
-                
             </BrowserRouter>
         </CartProvider>
     );
