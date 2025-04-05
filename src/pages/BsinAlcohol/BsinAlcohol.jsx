@@ -28,7 +28,7 @@ const SinAlcohol = [
         img: colombiana,
         titulo: "Colombiana",
         precio: "$3.500",
-        disponible: true,
+        disponible: false,
     },
     {
         id: 3,
@@ -56,14 +56,14 @@ const SinAlcohol = [
         img: hit_mora,
         titulo: "Jugo Hit Mora",
         precio: "$3.500",
-        disponible: true,
+        disponible: false,
     },
     {
         id: 7,
         img: hit_naranja,
         titulo: "Jugo Hit Naranja Piña",
         precio: "$3.500",
-        disponible: false,
+        disponible: true,
     },
 ];
 
