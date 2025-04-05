@@ -56,7 +56,7 @@ const shots = [
         descripcion:
             "Licor alemán de hierbas, con un sabor intenso y ligeramente dulce, 35% v/v.",
         precio: "$9.000",
-        disponible: true,
+        disponible: false,
     },
 ];
 
