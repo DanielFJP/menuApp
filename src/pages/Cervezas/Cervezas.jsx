@@ -167,7 +167,7 @@ const artesanales = [
         titulo: "BBC Lager 330ml",
         descripcion: "Clásica, refrescante y equilibrada, 5% v/v.",
         precio: "$10.000",
-        disponible: true,
+        disponible: false,
     },
     {
         id: 7,
@@ -202,7 +202,7 @@ const artesanales = [
         descripcion:
             "Maltosa, con toques acaramelados y ﬁnal amaderado, 5.2% v/v.",
         precio: "$10.000",
-        disponible: true,
+        disponible: false,
     },
     {
         id: 11,
