@@ -185,7 +185,7 @@ const artesanales = [
         descripcion:
             "Suave, balance perfecto entre dulzura y frutos rojos, 3.8 v/v.",
         precio: "$10.000",
-        disponible: true,
+        disponible: false,
     },
     {
         id: 9,
