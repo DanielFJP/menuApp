@@ -53,6 +53,14 @@ const cafes = [
         precio: "$6.000",
         disponible: true,
     },
+    {
+        id: 5,
+        img: capuchino,
+        titulo: "Capuchino 12onz",
+        descripcion: "Espresso, leche vaporizada y espuma de leche, tricolor.",
+        precio: "$7.000",
+        disponible: true,
+    }
 ];
 
 const aromaticas = [
