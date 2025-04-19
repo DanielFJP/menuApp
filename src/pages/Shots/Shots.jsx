@@ -7,11 +7,11 @@ import Col from "react-bootstrap/Col";
 import Row from "react-bootstrap/Row";
 import { CartContext } from "../../components/CartContext";
 
-import shot_jack from "../../img/shots/shot_jack.png";
-import shot_fire from "../../img/shots/shot_fire.png";
-import shot_honey from "../../img/shots/shot_honey.png";
-import shot_apple from "../../img/shots/shot_apple.png";
-import shot_jager from "../../img/shots/shot_jager.png";
+import shot_jack from "../../img/shots/shot_jack.webp";
+import shot_fire from "../../img/shots/shot_fire.webp";
+import shot_honey from "../../img/shots/shot_honey.webp";
+import shot_apple from "../../img/shots/shot_apple.webp";
+import shot_jager from "../../img/shots/shot_jager.webp";
 
 const shots = [
     {

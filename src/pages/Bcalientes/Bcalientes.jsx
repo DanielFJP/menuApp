@@ -9,15 +9,15 @@ import Col from "react-bootstrap/Col";
 import Row from "react-bootstrap/Row";
 import { CartContext } from "../../components/CartContext";
 
-import tinto from "../../img/bebidas-calientes/tinto.png";
-import latte_6onz from "../../img/bebidas-calientes/latte_6onz.png";
-import latte_9onz from "../../img/bebidas-calientes/latte_9onz.png";
-import capuchino from "../../img/bebidas-calientes/capuchino.png";
+import tinto from "../../img/bebidas-calientes/tinto.webp";
+import latte_6onz from "../../img/bebidas-calientes/latte_6onz.webp";
+import latte_9onz from "../../img/bebidas-calientes/latte_9onz.webp";
+import capuchino from "../../img/bebidas-calientes/capuchino.webp";
 
-import aromatica_6onz from "../../img/bebidas-calientes/aromatica_6onz.png";
-import aromatica_9onz from "../../img/bebidas-calientes/aromatica_9onz.png";
+import aromatica_6onz from "../../img/bebidas-calientes/aromatica_6onz.webp";
+import aromatica_9onz from "../../img/bebidas-calientes/aromatica_9onz.webp";
 
-import capuchino_con_licor from "../../img/bebidas-calientes/capuchino_con_licor.png";
+import capuchino_con_licor from "../../img/bebidas-calientes/capuchino_con_licor.webp";
 import vino_caliente from "../../img/bebidas-calientes/vino_caliente.png";
 
 const cafes = [

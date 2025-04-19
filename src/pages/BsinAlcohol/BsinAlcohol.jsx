@@ -7,13 +7,13 @@ import Col from "react-bootstrap/Col";
 import Row from "react-bootstrap/Row";
 import { CartContext } from "../../components/CartContext";
 
-import Zalva from "../../img/bebidas-sin-alcohol/agua-zalva.png";
-import colombiana from "../../img/bebidas-sin-alcohol/colombiana.png";
-import hit_tropical from "../../img/bebidas-sin-alcohol/Hit-Frutas-tropicales.png";
-import hit_lulo from "../../img/bebidas-sin-alcohol/Hit-Lulo.png";
-import hit_mango from "../../img/bebidas-sin-alcohol/Hit-Mango.png";
-import hit_mora from "../../img/bebidas-sin-alcohol/Hit-Mora.png";
-import hit_naranja from "../../img/bebidas-sin-alcohol/Hit-Naranja-Piña.png";
+import Zalva from "../../img/bebidas-sin-alcohol/agua-zalva.webp";
+import colombiana from "../../img/bebidas-sin-alcohol/colombiana.webp";
+import hit_tropical from "../../img/bebidas-sin-alcohol/Hit-Frutas-tropicales.webp";
+import hit_lulo from "../../img/bebidas-sin-alcohol/Hit-Lulo.webp";
+import hit_mango from "../../img/bebidas-sin-alcohol/Hit-Mango.webp";
+import hit_mora from "../../img/bebidas-sin-alcohol/Hit-Mora.webp";
+import hit_naranja from "../../img/bebidas-sin-alcohol/Hit-Naranja-Piña.webp";
 
 const SinAlcohol = [
     {

@@ -7,8 +7,8 @@ import Col from "react-bootstrap/Col";
 import Row from "react-bootstrap/Row";
 import { CartContext } from "../../components/CartContext";
 
-import todorico from "../../img/snacks/todo_rico.png";
-import detodito from "../../img/snacks/de_todito.png";
+import todorico from "../../img/snacks/todo_rico.webp";
+import detodito from "../../img/snacks/de_todito.webp";
 
 const snacks = [
     {
