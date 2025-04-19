@@ -159,7 +159,7 @@ const artesanales = [
         descripcion:
             "Cerveza rosada con sabor y aroma dulce y a fresa, 3.6% v/v.",
         precio: "$10.000",
-        disponible: false,
+        disponible: true,
     },
     {
         id: 6,
@@ -193,7 +193,7 @@ const artesanales = [
         titulo: "3 Cordilleras Negra 330ml",
         descripcion: "fuerte, con aroma y sabor a chocolate y café, 6.4% v/v.",
         precio: "$10.000",
-        disponible: false,
+        disponible: true,
     },
     {
         id: 10,
@@ -202,7 +202,7 @@ const artesanales = [
         descripcion:
             "Maltosa, con toques acaramelados y ﬁnal amaderado, 5.2% v/v.",
         precio: "$10.000",
-        disponible: false,
+        disponible: true,
     },
     {
         id: 11,
@@ -220,7 +220,7 @@ const artesanales = [
         descripcion:
             "Cítrica en aroma y sabor, amargo pronunciado y ﬁnal seco, 4.8% v/v.",
         precio: "$10.000",
-        disponible: true,
+        disponible: false,
     },
     {
         id: 13,
@@ -229,7 +229,7 @@ const artesanales = [
         descripcion:
             "Suave, fresca, notas ﬂorales tenues, sin sensación de amargo, 4.6% v/v.",
         precio: "$10.000",
-        disponible: true,
+        disponible: false,
     },
 ];
 
@@ -257,7 +257,7 @@ const importadas = [
         descripcion:
             "Lager belga premium, cuerpo ligero y sabor refinado, 5% v/v.",
         precio: "$10.000",
-        disponible: true,
+        disponible: false,
     },
 ];
 
