@@ -42,7 +42,7 @@ const SinAlcohol = [
         img: hit_lulo,
         titulo: "Jugo Hit Lulo",
         precio: "$3.500",
-        disponible: false,
+        disponible: true,
     },
     {
         id: 5,
@@ -56,7 +56,7 @@ const SinAlcohol = [
         img: hit_mora,
         titulo: "Jugo Hit Mora",
         precio: "$3.500",
-        disponible: false,
+        disponible: true,
     },
     {
         id: 7,
