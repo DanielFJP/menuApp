@@ -102,7 +102,7 @@ const nacionales = [
         titulo: "Club Colombia Trigo 330ml",
         descripcion: "Cerveza de trigo, fresca y afrutada, 5% v/v.",
         precio: "$7.000",
-        disponible: false,
+        disponible: true,
     },
     {
         id: 9,
@@ -167,7 +167,7 @@ const artesanales = [
         titulo: "BBC Lager 330ml",
         descripcion: "Clásica, refrescante y equilibrada, 5% v/v.",
         precio: "$10.000",
-        disponible: false,
+        disponible: true,
     },
     {
         id: 7,

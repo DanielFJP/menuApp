@@ -163,6 +163,13 @@ function Bnavegacion() {
                         </Nav.Link>
                         <Nav.Link
                             as={Link}
+                            to="/licores"
+                            onClick={handleNavLinkClick}
+                        >
+                            Licores y Aperitivos
+                        </Nav.Link>
+                        <Nav.Link
+                            as={Link}
                             to="https://tally.so/r/3yz1PB"
                             onClick={handleNavLinkClick}
                         >
@@ -172,6 +179,8 @@ function Bnavegacion() {
                 </Navbar.Collapse>
             </Navbar>
 
+            
+            
             <Modal
                 show={showCart}
                 onHide={toggleCart}
