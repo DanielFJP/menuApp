@@ -91,7 +91,7 @@ const con_alcohol = [
         titulo: "Capuchino Con Licor",
         descripcion:
             "Capuchino clásico con un toque de brandy para calentar el alma, 3% v/v.",
-        precio: "$8.000",
+        precio: "$10.000",
         disponible: true,
     },
     {

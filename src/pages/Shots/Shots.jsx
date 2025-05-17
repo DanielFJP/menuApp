@@ -30,7 +30,7 @@ const shots = [
         descripcion:
             "Whiskey con un toque de canela picante, ardiente y dulce, 35% v/v.",
         precio: "$12.000",
-        disponible: false,
+        disponible: true,
     },
     {
         id: 3,
