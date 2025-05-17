@@ -21,7 +21,7 @@ const shots = [
         descripcion:
             "El clásico whiskey de Tennessee, sabor robusto y notas de caramelo y roble, 40% v/v.",
         precio: "$12.000",
-        disponible: true,
+        disponible: false,
     },
     {
         id: 2,
@@ -30,7 +30,7 @@ const shots = [
         descripcion:
             "Whiskey con un toque de canela picante, ardiente y dulce, 35% v/v.",
         precio: "$12.000",
-        disponible: true,
+        disponible: false,
     },
     {
         id: 3,

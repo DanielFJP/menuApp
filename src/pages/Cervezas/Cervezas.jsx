@@ -159,7 +159,7 @@ const artesanales = [
         descripcion:
             "Cerveza rosada con sabor y aroma dulce y a fresa, 3.6% v/v.",
         precio: "$10.000",
-        disponible: true,
+        disponible: false,
     },
     {
         id: 6,
@@ -167,7 +167,7 @@ const artesanales = [
         titulo: "BBC Lager 330ml",
         descripcion: "Clásica, refrescante y equilibrada, 5% v/v.",
         precio: "$10.000",
-        disponible: true,
+        disponible: false,
     },
     {
         id: 7,
@@ -193,7 +193,7 @@ const artesanales = [
         titulo: "3 Cordilleras Negra 330ml",
         descripcion: "fuerte, con aroma y sabor a chocolate y café, 6.4% v/v.",
         precio: "$10.000",
-        disponible: true,
+        disponible: false,
     },
     {
         id: 10,
@@ -202,7 +202,7 @@ const artesanales = [
         descripcion:
             "Maltosa, con toques acaramelados y ﬁnal amaderado, 5.2% v/v.",
         precio: "$10.000",
-        disponible: true,
+        disponible: false,
     },
     {
         id: 11,
