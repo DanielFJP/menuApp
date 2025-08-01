@@ -28,7 +28,7 @@ const SinAlcohol = [
         img: colombiana,
         titulo: "Colombiana",
         precio: "$3.500",
-        disponible: false,
+        disponible: true,
     },
     {
         id: 3,

@@ -110,7 +110,7 @@ const nacionales = [
         titulo: "Club Colombia Dorada 500ml",
         descripcion: "Versión grande de la dorada, 4.7% v/v.",
         precio: "$10.000",
-        disponible: false,
+        disponible: true,
     },
 ];
 
@@ -132,7 +132,7 @@ const artesanales = [
         descripcion:
             "Cerveza roja de pura malta, con un sabor afrutado, 5% v/v.",
         precio: "$10.000",
-        disponible: false,
+        disponible: true,
     },
     {
         id: 3,
@@ -141,7 +141,7 @@ const artesanales = [
         descripcion:
             "Cerveza negra de pura malta tostada, robusta y cremosa, 5% v/v.",
         precio: "$10.000",
-        disponible: false,
+        disponible: true,
     },
     {
         id: 4,
@@ -150,7 +150,7 @@ const artesanales = [
         descripcion:
             "Cerveza blanca de trigo con cáscaras de naranja y coriandro, 4.1% v/v.",
         precio: "$10.000",
-        disponible: false,
+        disponible: true,
     },
     {
         id: 5,
@@ -159,7 +159,7 @@ const artesanales = [
         descripcion:
             "Cerveza rosada con sabor y aroma dulce y a fresa, 3.6% v/v.",
         precio: "$10.000",
-        disponible: false,
+        disponible: true,
     },
     {
         id: 6,
@@ -167,7 +167,7 @@ const artesanales = [
         titulo: "BBC Lager 330ml",
         descripcion: "Clásica, refrescante y equilibrada, 5% v/v.",
         precio: "$10.000",
-        disponible: false,
+        disponible: true,
     },
     {
         id: 7,
@@ -176,7 +176,7 @@ const artesanales = [
         descripcion:
             "Cerveza negra con infusión de café Colombiano, tipo stout, 5% v/v.",
         precio: "$10.000",
-        disponible: false,
+        disponible: true,
     },
     {
         id: 8,
@@ -185,7 +185,7 @@ const artesanales = [
         descripcion:
             "Suave, balance perfecto entre dulzura y frutos rojos, 3.8 v/v.",
         precio: "$10.000",
-        disponible: false,
+        disponible: true,
     },
     {
         id: 9,
@@ -193,7 +193,7 @@ const artesanales = [
         titulo: "3 Cordilleras Negra 330ml",
         descripcion: "fuerte, con aroma y sabor a chocolate y café, 6.4% v/v.",
         precio: "$10.000",
-        disponible: false,
+        disponible: true,
     },
     {
         id: 10,
@@ -202,7 +202,7 @@ const artesanales = [
         descripcion:
             "Maltosa, con toques acaramelados y ﬁnal amaderado, 5.2% v/v.",
         precio: "$10.000",
-        disponible: false,
+        disponible: true,
     },
     {
         id: 11,
@@ -211,7 +211,7 @@ const artesanales = [
         descripcion:
             " Refrescante y ligera, con suaves notas cítricas, 3.9% v/v.",
         precio: "$10.000",
-        disponible: false,
+        disponible: true,
     },
     {
         id: 12,
@@ -220,7 +220,7 @@ const artesanales = [
         descripcion:
             "Cítrica en aroma y sabor, amargo pronunciado y ﬁnal seco, 4.8% v/v.",
         precio: "$10.000",
-        disponible: false,
+        disponible: true,
     },
     {
         id: 13,
@@ -229,7 +229,7 @@ const artesanales = [
         descripcion:
             "Suave, fresca, notas ﬂorales tenues, sin sensación de amargo, 4.6% v/v.",
         precio: "$10.000",
-        disponible: false,
+        disponible: true,
     },
 ];
 
@@ -240,7 +240,7 @@ const importadas = [
         titulo: "Corona Extra 355ml",
         descripcion: "Lager mexicana, refrescante y ligera, 4.5% v/v.",
         precio: "$10.000",
-        disponible: false,
+        disponible: true,
     },
     {
         id: 2,
@@ -248,7 +248,7 @@ const importadas = [
         titulo: "Coronita 210ml",
         descripcion: "Versión pequeña de Corona, 4.5% v/v.",
         precio: "$6.000",
-        disponible: false,
+        disponible: true,
     },
     {
         id: 3,
@@ -257,7 +257,7 @@ const importadas = [
         descripcion:
             "Lager belga premium, cuerpo ligero y sabor refinado, 5% v/v.",
         precio: "$10.000",
-        disponible: false,
+        disponible: true,
     },
 ];
 

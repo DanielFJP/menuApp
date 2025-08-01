@@ -101,7 +101,7 @@ const con_alcohol = [
         descripcion:
             "Vino tinto especiado con canela, clavos y cítricos, ideal para noches frías, 15.5% v/v.",
         precio: "$10.000",
-        disponible: false,
+        disponible: true,
     },
 ];
 

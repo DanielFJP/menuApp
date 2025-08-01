@@ -21,7 +21,7 @@ const shots = [
         descripcion:
             "El clásico whiskey de Tennessee, sabor robusto y notas de caramelo y roble, 40% v/v.",
         precio: "$12.000",
-        disponible: false,
+        disponible: true,
     },
     {
         id: 2,
@@ -47,7 +47,7 @@ const shots = [
         descripcion:
             "Whiskey infusionado con manzana verde, fresco y afrutado, 35% v/v.",
         precio: "$12.000",
-        disponible: false,
+        disponible: true,
     },
     {
         id: 5,
