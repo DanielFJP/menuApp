@@ -179,8 +179,6 @@ function Bnavegacion() {
                 </Navbar.Collapse>
             </Navbar>
 
-            
-            
             <Modal
                 show={showCart}
                 onHide={toggleCart}
