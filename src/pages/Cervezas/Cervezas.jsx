@@ -53,7 +53,7 @@ const nacionales = [
         titulo: "Aguila Light 330ml",
         descripcion:
             "Versión ligera, menos calorías, misma frescura, 3.4% v/v.",
-        precio: "$5.000",
+        precio: "$6.000",
         disponible: true,
     },
     {
@@ -93,7 +93,7 @@ const nacionales = [
         img: club_negra,
         titulo: "Club Colombia Negra 330ml",
         descripcion: "Cerveza oscura con notas a café y chocolate, 5% v/v.",
-        precio: "$6.000",
+        precio: "$6.500",
         disponible: true,
     },
     {

@@ -26,7 +26,7 @@ const cafes = [
         img: tinto,
         titulo: "Americano 6onz",
         descripcion: "Café negro suave, perfecto para cualquier momento",
-        precio: "$2.000",
+        precio: "$2.500",
         disponible: true,
     },
     {
@@ -34,7 +34,7 @@ const cafes = [
         img: latte_6onz,
         titulo: "Latte 6onz",
         descripcion: "Café espresso con leche vaporizada, cremoso y balanceado",
-        precio: "3.500",
+        precio: "4.500",
         disponible: true,
     },
     {
@@ -42,15 +42,15 @@ const cafes = [
         img: latte_9onz,
         titulo: "Latte 9onz",
         descripcion: "Café espresso con leche vaporizada, cremoso y balanceado",
-        precio: "4.500",
+        precio: "5.500",
         disponible: true,
     },
     {
         id: 4,
         img: capuchino,
         titulo: "Capuchino",
-        descripcion: "Espresso, leche vaporizada y espuma de leche, tricolor.",
-        precio: "$6.000",
+        descripcion: "Espresso, leche vaporizada y espuma de leche, tricolor, Incluye Galletas.",
+        precio: "$7.000",
         disponible: true,
     },
     {

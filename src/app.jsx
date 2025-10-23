@@ -7,6 +7,7 @@ import Bcalientes from "./pages/Bcalientes/Bcalientes";
 import BsinAlcohol from "./pages/BsinAlcohol/BsinAlcohol";
 import Snacks from "./pages/Snacks/Snacks";
 import Shots from "./pages/Shots/Shots";
+import Cocteles from "./pages/Cocteles/Cocteles";
 import Administracion from "./pages/Administracion/Administracion";
 import Licores from "./pages/Licores/Licores";
 
@@ -32,6 +33,7 @@ export function App() {
                     />
                     <Route path="/snacks" element={<Snacks />} />
                     <Route path="/shots" element={<Shots />} />
+                    <Route path="/cocteles" element={<Cocteles />} />
                     <Route path="/licores" element={<Licores />} />
                     <Route
                         path="/administracion"
