@@ -93,7 +93,7 @@ const nacionales = [
         img: club_negra,
         titulo: "Club Colombia Negra 330ml",
         descripcion: "Cerveza oscura con notas a café y chocolate, 5% v/v.",
-        precio: "$6.500",
+        precio: "$7.000",
         disponible: true,
     },
     {

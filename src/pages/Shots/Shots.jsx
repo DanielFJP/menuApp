@@ -11,6 +11,7 @@ import shot_jack from "../../img/shots/shot_jack.webp";
 import shot_fire from "../../img/shots/shot_fire.webp";
 import shot_honey from "../../img/shots/shot_honey.webp";
 import shot_apple from "../../img/shots/shot_apple.webp";
+import shot_blackberry from "../../img/shots/jd.png";
 import shot_jager from "../../img/shots/shot_jager.webp";
 
 const shots = [
@@ -20,7 +21,7 @@ const shots = [
         titulo: "Shot Jack Daniel's Old N0.7 1 oz",
         descripcion:
             "El clásico whiskey de Tennessee, sabor robusto y notas de caramelo y roble, 40% v/v.",
-        precio: "$12.000",
+        precio: "$13.000",
         disponible: true,
     },
     {
@@ -29,7 +30,7 @@ const shots = [
         titulo: "Shot Jack Daniel's Fire 1 oz",
         descripcion:
             "Whiskey con un toque de canela picante, ardiente y dulce, 35% v/v.",
-        precio: "$12.000",
+        precio: "$14.000",
         disponible: true,
     },
     {
@@ -37,7 +38,7 @@ const shots = [
         img: shot_honey,
         titulo: "Shot Jack Daniel's Honey 1 oz",
         descripcion: "Mezcla suave de whiskey y miel, dulce y sedoso, 35% v/v.",
-        precio: "$12.000",
+        precio: "$14.000",
         disponible: true,
     },
     {
@@ -46,16 +47,25 @@ const shots = [
         titulo: "Shot Jack Daniel's Apple 1 oz",
         descripcion:
             "Whiskey infusionado con manzana verde, fresco y afrutado, 35% v/v.",
-        precio: "$12.000",
+        precio: "$14.000",
         disponible: true,
     },
     {
         id: 5,
+        img: shot_blackberry,
+        titulo: "Shot Jack Daniel's Black Berry 1 oz",
+        descripcion:
+            "",
+        precio: "$20.000",
+        disponible: true,
+    },
+    {
+        id: 6,
         img: shot_jager,
         titulo: "Shot Jägermeister 1 oz",
         descripcion:
             "Licor alemán de hierbas, con un sabor intenso y ligeramente dulce, 35% v/v.",
-        precio: "$9.000",
+        precio: "$13.000",
         disponible: true,
     },
 ];
