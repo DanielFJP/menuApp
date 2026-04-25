@@ -14,6 +14,7 @@ import hit_lulo from "../../img/bebidas-sin-alcohol/Hit-Lulo.webp";
 import hit_mango from "../../img/bebidas-sin-alcohol/Hit-Mango.webp";
 import hit_mora from "../../img/bebidas-sin-alcohol/Hit-Mora.webp";
 import hit_naranja from "../../img/bebidas-sin-alcohol/Hit-Naranja-Piña.webp";
+import red_bull from "../../img/bebidas-sin-alcohol/red-bull.png";
 
 const SinAlcohol = [
     {
@@ -25,41 +26,48 @@ const SinAlcohol = [
     },
     {
         id: 2,
+        img: red_bull,
+        titulo: "Red Bull",
+        precio: "$14.000",
+        disponible: true,
+    },
+    {
+        id: 3,
         img: colombiana,
         titulo: "Colombiana",
         precio: "$3.500",
         disponible: true,
     },
     {
-        id: 3,
+        id: 4,
         img: hit_tropical,
         titulo: "Jugo Hit Tropical",
         precio: "$3.500",
         disponible: true,
     },
     {
-        id: 4,
+        id: 5,
         img: hit_lulo,
         titulo: "Jugo Hit Lulo",
         precio: "$3.500",
         disponible: true,
     },
     {
-        id: 5,
+        id: 6,
         img: hit_mango,
         titulo: "Jugo Hit Mango",
         precio: "$3.500",
         disponible: true,
     },
     {
-        id: 6,
+        id: 7,
         img: hit_mora,
         titulo: "Jugo Hit Mora",
         precio: "$3.500",
         disponible: true,
     },
     {
-        id: 7,
+        id: 8,
         img: hit_naranja,
         titulo: "Jugo Hit Naranja Piña",
         precio: "$3.500",

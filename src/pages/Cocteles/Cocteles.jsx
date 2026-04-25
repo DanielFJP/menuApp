@@ -38,7 +38,7 @@ const Cocteles = [
         img: coctel3,
         titulo: "JagerBoom",
         descripcion: "Reb Bull, Jagermeister, Opcional Jugo de Limon.",
-        precio: "$20.000",
+        precio: "$21.000",
         disponible: true,
     },
     {

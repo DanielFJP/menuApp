@@ -36,6 +36,7 @@ import blanca from "../../img/cervezas/cervezas-artesanales/3c_blanca.webp";
 import corona from "../../img/cervezas/cervezas-importadas/corona.png";
 import coronita from "../../img/cervezas/cervezas-importadas/coronita.png";
 import stella from "../../img/cervezas/cervezas-importadas/stella.png";
+import modelo from "../../img/cervezas/cervezas-importadas/modelo.png";
 
 
 const nacionales = [
@@ -77,7 +78,7 @@ const nacionales = [
         img: club_dorada,
         titulo: "Club Colombia Dorada 330ml",
         descripcion: "Lager premium, sabor balanceado, 4.7% v/v.",
-        precio: "$6.000",
+        precio: "$7.000",
         disponible: true,
     },
     {
@@ -85,7 +86,7 @@ const nacionales = [
         img: club_roja,
         titulo: "Club Colombia Roja 330ml",
         descripcion: "Cuerpo medio y notas acarameladas, 5% v/v.",
-        precio: "$6.000",
+        precio: "$7.000",
         disponible: true,
     },
     {
@@ -257,6 +258,15 @@ const importadas = [
         descripcion:
             "Lager belga premium, cuerpo ligero y sabor refinado, 5% v/v.",
         precio: "$10.000",
+        disponible: true,
+    },
+    {
+        id: 4,
+        img: modelo,
+        titulo: "Cerveza Modelo 355ml",
+        descripcion:
+            "Cerveza Mexicana, balanceada con aroma fresco y carácter suave.",
+        precio: "$13.500",
         disponible: true,
     },
 ];

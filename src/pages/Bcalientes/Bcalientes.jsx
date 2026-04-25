@@ -31,6 +31,14 @@ const cafes = [
     },
     {
         id: 2,
+        img: tinto,
+        titulo: "Americano con Ron o Aguardiente",
+        descripcion: "",
+        precio: "$3.500",
+        disponible: true,
+    },
+    {
+        id: 3,
         img: latte_6onz,
         titulo: "Latte 6onz",
         descripcion: "Café espresso con leche vaporizada, cremoso y balanceado",
@@ -38,7 +46,7 @@ const cafes = [
         disponible: true,
     },
     {
-        id: 3,
+        id: 4,
         img: latte_9onz,
         titulo: "Latte 9onz",
         descripcion: "Café espresso con leche vaporizada, cremoso y balanceado",
@@ -46,21 +54,22 @@ const cafes = [
         disponible: true,
     },
     {
-        id: 4,
+        id: 5,
         img: capuchino,
         titulo: "Capuchino",
-        descripcion: "Espresso, leche vaporizada y espuma de leche, tricolor, Incluye Galletas.",
+        descripcion:
+            "Espresso, leche vaporizada y espuma de leche, tricolor, Incluye Galletas.",
         precio: "$7.000",
         disponible: true,
     },
     {
-        id: 5,
+        id: 6,
         img: capuchino,
         titulo: "Capuchino 12onz",
         descripcion: "Espresso, leche vaporizada y espuma de leche, tricolor.",
         precio: "$7.000",
         disponible: true,
-    }
+    },
 ];
 
 const aromaticas = [
@@ -99,7 +108,7 @@ const con_alcohol = [
         img: vino_caliente,
         titulo: "Vino Caliente",
         descripcion:
-            "Vino tinto especiado con canela, clavos y cítricos, ideal para noches frías, 15.5% v/v.",
+            "Vino de Reserva: $15.000",
         precio: "$10.000",
         disponible: true,
     },
