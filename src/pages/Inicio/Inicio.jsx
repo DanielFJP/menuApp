@@ -157,7 +157,7 @@ function Inicio() {
                 <hr className="linea" />
 
                 <Link
-                    to="https://tally.so/r/3yz1PB"
+                    to="https://tally.so/r/zxO7P0"
                     className="boton_producto"
                     id="boton_musica"
                 >
